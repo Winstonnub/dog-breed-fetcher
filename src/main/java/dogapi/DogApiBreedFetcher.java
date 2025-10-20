@@ -48,7 +48,7 @@ public class DogApiBreedFetcher implements BreedFetcher {
 
             return subBreeds;
         } catch (IOException e) {
-            throw new BreedNotFoundException("API request failed");
+            throw new BreedNotFoundException("API request failed!");
         }
     }
 }
